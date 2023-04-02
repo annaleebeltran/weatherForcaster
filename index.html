@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,23 +9,34 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
     <link rel="stylesheet" href="./assets/style.css">
-
 </head>
-
 <body>
     <header>
         <h1 class="title">Forecast Central</h1>
     </header>
     <hr>
+    <div class="col-3">
+        <h4 class="previousCity">Previous Cities:</h4>
+        <div class="searchList">
+            <ul class="searchHistory">
+                <section class="perviousbtns">
+                    <p id="search0">Dallas</p>
+                    <p id="search1">Philadelphia</p>
+                    <!-- <button id="search2">Los Angeles</button>
+                    <button id="search3">Juno</button>
+                    <button id="search4">San Antoniio</button> -->
+                </section>
+                <button type="button" class="btn btn-secondary btn-sm">Clear History</button>
+            </ul>
+        </div>
+    </div>
+    <div class="container col-9">
     <!-- City Search -->
     <section class="vh-40">
         <div class="container py-1 h-40">
-
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col-md-8 col-lg-6 col-xl-4">
-
                     <h3 class="mb-4 pb-2 fw-normal">Check the weather forecast:</h3>
-
                     <div class="input-group rounded mb-3">
                         <input type="search" class="form-control rounded" placeholder="Enter City Name"
                             aria-label="Search" aria-describedby="search-addon" />
@@ -53,7 +63,6 @@
                 <hr>
                 <h6 class="card-subtitle mb-2 ">Humidity: <span id="humidity"></span></h6>
             </div>
-
         </div>
     </div>
     <hr>
@@ -66,7 +75,8 @@
                     <div class="card-title" id="day0">Date:</div>
                     <img class="icons" id="icon0">
                     <p id="tempcity0">Temp:</p>
-                    <p id="windspeed0">Wind:</p>
+7:06
+<p id="windspeed0">Wind:</p>
                     <p id="humidity0">Humidity:</p>
                 </div>
             </div>
@@ -108,28 +118,26 @@
             </div>
         </div>
     </div>
-    <footer class="footer">
-        <h4 class="previousCity">Previous Cities:</h4>
+</div>
+    <!-- <footer class="footer"> -->
+        <!-- <h4 class="previousCity">Previous Cities:</h4>
         <div class="searchList">
             <ul class="searchHistory">
                 <section class="perviousbtns">
-                    <button id="search0"></button>
-                    <button id="search1"></button>
-                    <button id="search2"></button>
-                    <button id="search3"></button>
-                    <button id="search4"></button>
+                    <button id="search0">Dallas</button>
+                    <button id="search1">Philadelphia</button>
+                    <button id="search2">Los Angeles</button>
+                    <button id="search3">Juno</button>
+                    <button id="search4">San Antoniio</button>
                 </section>
                 <button type="button" class="btn btn-secondary btn-sm">Clear History</button>
             </ul>
-
-        </div>
-    </footer>
-
+        </div> -->
+    <!-- </footer> -->
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
         integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U=" crossorigin="anonymous"></script>
     <script src="./assets/script.js"></script>
 </body>
-
 </html>
