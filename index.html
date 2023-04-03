@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <h1 class="title">Forecast Central</h1>
+        <h1 class="title">Weather Dashboard</h1>
     </header>
 
     <div class="container col-9">
@@ -23,7 +23,7 @@
             <div class="container py-1 h-40">
                 <div class="row d-flex justify-content-center align-items-center h-100">
                     <div class="col-md-8 col-lg-6 col-xl-4">
-                        <h3 class="mb-4 pb-2 fw-normal">Check the weather forecast:</h3>
+                        <h3 class="mb-4 pb-2 fw-normal">Search for a City:</h3>
                         <div class="input-group rounded mb-3">
                             <input type="text" id="enterCity"></input>
                             <button onclick="getCurrentWeather()">Search</button>
@@ -31,10 +31,7 @@
                     </div>
                 </div>
             </div>
-            <div class="searchData">
-                <ul id="searchList"></ul>
-                </ul>
-            </div>
+            <div class="searchData" id="searchData"></div>
         </section>
         <hr>
         <!--Currenct City info -->
@@ -58,47 +55,47 @@
             <div class="row">
                 <div class="col-sm">
                     <div class="card  five-cards">
-                        <div class="card-title" id="day0">Date:</div>
+                        <div class="card-title" id="day0"></div> <img id="widget0"><img>
                         <img class="icons" id="icon0">
-                        <p id="tempcity0">Temp:</p>
-                        <p id="windspeed0">Wind:</p>
-                        <p id="humidity0">Humidity:</p>
+                        <p id="tempcity0"></p>
+                        <p id="windspeed0"></p>
+                        <p id="humidity0"></p>
                     </div>
                 </div>
                 <div class="col-sm">
                     <div class="card  five-cards">
-                        <div class="card-title" id="day1">Date:</div>
+                        <div class="card-title" id="day1"></div><img id="widget1"><img>
                         <img class="icons" id="icon1">
-                        <p id="tempcity1">Temp:</p>
-                        <p id="windspeed1">Wind:</p>
-                        <p id="humidity1">Humidity:</p>
+                        <p id="tempcity1"></p>
+                        <p id="windspeed1"></p>
+                        <p id="humidity1"></p>
                     </div>
                 </div>
                 <div class="col-sm">
                     <div class="card  five-cards">
-                        <div class="card-title" id="day2">Date:</div>
+                        <div class="card-title" id="day2"></div><img id="widget2"><img>
                         <img class="icons" id="icon2">
-                        <p id="tempcity2">Temp:</p>
-                        <p id="windspeed2">Wind:</p>
-                        <p id="humidity2">Humidity:</p>
+                        <p id="tempcity2"></p>
+                        <p id="windspeed2"></p>
+                        <p id="humidity2"></p>
                     </div>
                 </div>
                 <div class="col-sm">
                     <div class="card  five-cards">
-                        <div class="card-title" id="day3">Date:</div>
+                        <div class="card-title" id="day3"></div><img id="widget3"><img>
                         <img class="icons" id="icon3">
-                        <p id="tempcity3">Temp:</p>
-                        <p id="windspeed3">Wind:</p>
-                        <p id="humidity3">Humidity:</p>
+                        <p id="tempcity3"></p>
+                        <p id="windspeed3"></p>
+                        <p id="humidity3"></p>
                     </div>
                 </div>
                 <div class="col-sm">
                     <div class="card  five-cards">
-                        <div class="card-title" id="day4">Date:</div>
+                        <div class="card-title" id="day4"></div><img id="widget4"><img>
                         <img class="icons" id="icon4">
-                        <p id="tempcity4">Temp:</p>
-                        <p id="windspeed4">Wind:</p>
-                        <p id="humidity4">Humidity:</p>
+                        <p id="tempcity4"></p>
+                        <p id="windspeed4"></p>
+                        <p id="humidity4"></p>
                     </div>
                 </div>
             </div>
