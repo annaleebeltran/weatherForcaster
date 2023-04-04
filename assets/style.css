@@ -1,13 +1,16 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
 }
-
+.card{
+    background-color: rgb(129, 130, 149);
+}
 
 .title {
     text-align: center;
     color: whitesmoke;
     border-radius: 0;
-    background-color: rgb(0, 115, 255);
+    background-color:rgb(17, 34, 165);
 }
 
 .daysAhead {
@@ -20,11 +23,4 @@ body {
 
 .footer {
     width: 100%;
-}
-
-.previousbtns {
-    display: flex;
-    position: absolute;
-    right: 15%;
-    top: 100px;
 }

@@ -8,7 +8,7 @@ This weather forecaster displays the current city's day forecasr using a third-p
 ## Usage
 
 weatherForecaster implemnts third party API to view current city stats along with the next 5-days.
-![alt text](./)
+![alt text](./assets/weatherimage.png)
 
 
 ## License
